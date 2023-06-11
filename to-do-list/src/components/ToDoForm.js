@@ -20,7 +20,13 @@ function ToDoForm({ addItem }) {
     <form onSubmit={handleSubmit} className="new-item">
       <div className="form-row">
         <label htmlFor="item">New Item</label>
-        <input value={newItem} onChange={handleChange} type="text" id="item" />
+        <input
+          value={newItem}
+          onChange={handleChange}
+          type="text"
+          id="item"
+          placeholder="Add Somthings..."
+        />
         <button className="btn">Add</button>
       </div>
     </form>

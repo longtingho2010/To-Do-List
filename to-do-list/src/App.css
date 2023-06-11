@@ -51,7 +51,7 @@ body {
 }
 
 .form-row {
-  margin: 30px 0;
+  margin: 80px 0 0;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -103,6 +103,12 @@ label {
 h1 {
   font-size: 45px;
   margin: 30px 0 0px;
+}
+
+ul {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 li {
