@@ -6,13 +6,18 @@ import ToDoList from "./components/ToDoList";
 function App() {
   const [todos, setTodos] = useState([]);
 
-  const addItem = (title) => {
+  const addItem = (title2) => {
     setTodos((currentValue) => {
       return [
-        { id: Math.floor(Math.random() * 100000), title, done: false },
+        {
+          id: Math.floor(Math.random() * 100000),
+          title2,
+          done: false,
+        },
         ...currentValue,
       ];
     });
+    console.log(todos);
   };
 
   const toogleTodo = (id, done) => {
